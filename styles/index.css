@@ -515,11 +515,16 @@ button img {
   margin-top: 11px;
 }
 
+.boton-contact-container {
+  width: 100%;
+  margin-top: 2.8rem;
+  display: flex;
+  justify-content: center;
+}
+
 .button-text button {
-  display: inline-block;
   background-color: #cda274;
   padding: 26px 37px;
   color: #fff;
   border-radius: 18px;
-  margin: 32px auto 0 auto;
 }
