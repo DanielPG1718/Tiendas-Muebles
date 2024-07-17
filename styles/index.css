@@ -1,0 +1,525 @@
+@import url("./normalize.css");
+
+.navegacion {
+  display: flex;
+  justify-content: space-around;
+  padding: 6.5rem;
+}
+
+.logo {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+.logo h2 {
+  color: #292f36;
+  font-weight: 400;
+  font-family: "DM Serif Display", serif;
+}
+
+.logo img {
+  max-width: 3.4rem;
+}
+.navegacion-items {
+  color: #292f36;
+  font-family: "DM Serif Display", serif;
+}
+
+.navegacion-items a {
+  margin-right: 3rem;
+}
+
+.navegacion-items img {
+  max-width: 3rem;
+  margin-right: 3rem;
+}
+
+.fondo {
+  display: flex;
+  justify-content: center;
+  max-width: 135.3rem;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 100px;
+}
+
+.fondo-imagen {
+  width: 100%;
+  display: flex;
+}
+
+.texto {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+}
+
+.texto h2 {
+  color: #292f36;
+  font-size: 65px;
+  font-weight: 400;
+  font-family: "DM Serif Display", serif;
+  max-width: 43.4rem;
+}
+
+.texto p {
+  color: #4d5053;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "DM Serif Display", serif;
+}
+
+.texto button {
+  background-color: #292f36;
+  border-radius: 18px;
+  padding: 26px 49px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "DM Serif Display", serif;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+button img {
+  max-width: 1.5rem;
+}
+
+.conteiner-3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  gap: 42px;
+}
+
+.text-conteiner h3 {
+  color: #292f36;
+  font-family: "DM Serif Display", serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 200px;
+}
+
+.text-conteiner p {
+  max-width: 35.8rem;
+  color: #4d5053;
+  font-size: 22px;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  margin-top: 20px;
+}
+
+.text-conteiner button {
+  margin-top: 52px;
+}
+
+.conteiner-arte {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24.3rem;
+  gap: 75px;
+}
+
+.text-arte h3 {
+  max-width: 42rem;
+  color: #292f36;
+  font-family: "DM Serif Display", serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 62.5px;
+  letter-spacing: 1px;
+}
+
+.descrip {
+  max-width: 47.2rem;
+  color: #4d5053;
+  font-family: "Jost", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  margin-top: 33px;
+}
+
+.container-tele img {
+  max-width: 9.3rem;
+}
+
+.container-tele {
+  display: flex;
+  align-items: center;
+  margin-top: 45px;
+}
+
+.numero {
+  color: #4d5053;
+  font-family: "Jost", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.24px;
+}
+
+.credito {
+  color: #4d5053;
+  font-family: "Jost", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.text-arte button {
+  background-color: #292f36;
+  color: #fff;
+  padding: 26px 31px;
+  border-radius: 18px;
+  margin-top: 47px;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.5px;
+  letter-spacing: 0.36px;
+}
+
+.container-nosotros {
+  max-width: 120rem;
+  background-color: #f4f0ec;
+  margin: 0 auto;
+  margin-top: 24.3rem;
+  padding-top: 88px;
+  padding-bottom: 88px;
+}
+
+.nosotros h3 {
+  max-width: 54.7rem;
+  font-family: "DM Serif Display", serif;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 62.5px;
+  letter-spacing: 1px;
+}
+
+.general {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 70px;
+  margin-top: 38px;
+}
+
+.usa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.usa img {
+  border-radius: 50%;
+}
+
+.nombre {
+  color: #292f36;
+  font-family: "DM Serif Display", serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 37.5px;
+  letter-spacing: 0.25px;
+}
+
+.contenido {
+  max-width: 16rem;
+  color: #4d5053;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.18px;
+}
+
+.frase {
+  max-width: 30rem;
+  color: #4d5053;
+  font-family: "Jost", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  margin-top: 25px;
+}
+
+.primero,
+.segundo,
+.tercero {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.imagenes {
+  max-width: 120rem;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 29rem;
+}
+
+.imagenes img {
+  height: 40px;
+}
+
+.proyect {
+  max-width: 120rem;
+  width: 95%;
+  margin: 18rem auto 0 auto;
+  background-color: #fff;
+}
+
+.projects {
+  margin-top: 18rem;
+  text-align: center;
+}
+
+.projects h3 {
+  color: #292f36;
+  font-family: "DM Serif Display", serif;
+  font-size: 50px;
+  font-weight: 100;
+  line-height: 62.5px;
+  letter-spacing: 1px;
+}
+
+.projects p {
+  max-width: 737px;
+  color: #4d5053;
+  font-family: "Jost", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  margin: 0 auto;
+  margin-top: 8px;
+}
+
+.container-comedor {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+  margin-top: 93px;
+}
+
+.comedor img {
+  max-width: 54.7rem;
+  width: 100%;
+}
+
+.comedor1 {
+  border-radius: 0px 80px 0px 0px;
+}
+
+.comedor2 {
+  border-radius: 0px 0px 80px 0px;
+}
+
+.comedor3 {
+  border-radius: 0px 0px 0px 80px;
+}
+
+.comedor4 {
+  border-radius: 80px 0px 0px 0px;
+}
+
+.comedor-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.comedor-info img {
+  max-width: 70px;
+}
+
+.text-box h3 {
+  color: #292f36;
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+}
+
+.text-box p {
+  max-width: 21.7rem;
+  color: #4d5053;
+  font-family: "Jost", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+}
+
+.beneficio-section {
+  height: 45rem;
+  background-color: #f4f0ec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20rem;
+}
+
+.beneficios {
+  display: flex;
+  justify-content: center;
+  gap: 216px;
+}
+
+.number {
+  color: #cda274;
+  font-family: "DM Serif Display", serif;
+  font-size: 85px;
+  font-weight: 400;
+  line-height: 106.25px;
+  letter-spacing: 1.7px;
+  text-align: center;
+}
+
+.experience {
+  color: #4d5053;
+  font-family: "Jost", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+}
+
+.articulos {
+  max-width: 192rem;
+  background-color: #fff;
+  margin: 35rem auto 0 auto;
+}
+
+.articulo_box {
+  text-align: center;
+}
+
+.articulo_box h3 {
+  color: #292f36;
+  font-family: "DM Serif Display", serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 60.5px;
+  letter-spacing: 1px;
+}
+
+.articulo_box p {
+  max-width: 81rem;
+  color: #4d5053;
+  font-family: "Jost", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.conteiner-sala {
+  display: flex;
+  gap: 27px;
+  margin-top: 52px;
+  justify-content: center;
+}
+
+.sala-info {
+  margin-top: 21px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.sala-info img {
+  max-width: 52px;
+}
+
+.sala-text h3 {
+  max-width: 305px;
+  color: #292f36;
+  font-family: "DM Serif Display", serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 31.25px;
+  letter-spacing: 0.5px;
+}
+
+.sala-text p {
+  margin-top: 30px;
+  padding-bottom: 10px;
+}
+
+.conteiner-sala_card {
+  max-width: 34rem;
+  padding: 2.1rem;
+  border: 1px solid #292f36;
+  border-radius: 6.2rem;
+}
+
+.conteiner-sala_card img {
+  border-radius: 4.5rem 4.5rem 0 0;
+}
+
+.container-button {
+  max-width: 120rem;
+  background-color: #292f36;
+  border-radius: 7rem;
+  padding: 80px 315px;
+  margin: 0 auto;
+  margin-top: 24rem;
+}
+
+.button-text {
+  color: #fff;
+}
+
+.button-text h3 {
+  max-width: 57rem;
+  font-family: "DM Serif Display", serif;
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 62.5px;
+}
+
+.button-text p {
+  max-width: 45.2rem;
+  font-family: "Jost", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  margin: 0 auto;
+  margin-top: 11px;
+}
+
+.button-text button {
+  display: inline-block;
+  background-color: #cda274;
+  padding: 26px 37px;
+  color: #fff;
+  border-radius: 18px;
+  margin: 32px auto 0 auto;
+}
