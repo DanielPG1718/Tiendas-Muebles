@@ -333,3 +333,82 @@ CONTACT SECTION
   display: flex;
   justify-content: center;
 }
+
+/* 
+=====================================
+FOOTER SECTION 
+=====================================
+*/
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  width: 95%;
+  margin-top: 20rem;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 4fr 2fr 2fr 2fr;
+  padding-bottom: 8rem;
+}
+
+@media (width <= 920px) {
+  .footer {
+    padding-left: 5rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+  }
+}
+
+@media (width <= 480px) {
+  .footer {
+    padding-left: 2rem;
+    grid-template-columns: 1fr;
+    gap: 5rem;
+  }
+}
+
+.footer-social__info {
+  margin-top: 1.8rem;
+  max-width: 39rem;
+  color: #4d5053;
+}
+
+.footer-social__images {
+  margin-top: 3rem;
+  display: flex;
+  gap: 5rem;
+}
+
+.footer-social__images img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.footer-list strong {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+}
+
+.footer-list ul {
+  margin-top: 1rem;
+  list-style: none;
+  color: #4d5053;
+  max-width: 25rem;
+}
+
+.footer-list--space ul {
+  line-height: 300%;
+}
+
+.footer-list--normal ul li {
+  margin-top: 2rem;
+}
+
+.footer-copy {
+  margin-top: 10rem;
+  color: #4d5053;
+  text-align: center;
+  grid-column: 1 / -1;
+}

@@ -37,7 +37,8 @@
 .fondo {
   display: flex;
   justify-content: center;
-  max-width: 135.3rem;
+  max-width: 120rem;
+  height: 75rem;
   margin: 0 auto;
   position: relative;
   overflow: hidden;
@@ -65,9 +66,13 @@
 
 .texto p {
   color: #4d5053;
+  margin-top: 1.8rem;
   font-size: 22px;
   font-weight: 400;
-  font-family: "DM Serif Display", serif;
+  font-family: "Jost", serif;
+  max-width: 43rem;
+  width: 100%;
+  font-weight: 400;
 }
 
 .texto button {
@@ -77,7 +82,8 @@
   color: #fff;
   font-size: 18px;
   font-weight: 600;
-  font-family: "DM Serif Display", serif;
+  font-family: "Jost";
+  font-size: 18px;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -568,6 +574,11 @@ button img {
   gap: 11px;
 }
 
+/* 
+=====================================
+FOOTER SECTION 
+=====================================
+*/
 .container {
   max-width: 120rem;
   margin: 0 auto;
