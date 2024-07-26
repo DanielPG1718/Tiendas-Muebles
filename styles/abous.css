@@ -1,5 +1,79 @@
 @import url("./normalize.css");
 
+/* 
+=====================================
+NAVIGATION SECTION 
+=====================================
+*/
+
+.navegacion {
+  display: flex;
+  justify-content: space-around;
+  padding: 6.5rem;
+}
+
+.logo {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+.logo h2 {
+  color: #292f36;
+  font-weight: 400;
+  font-family: "DM Serif Display", serif;
+}
+
+.logo img {
+  max-width: 3.4rem;
+}
+.navegacion-items {
+  color: #292f36;
+  font-family: "DM Serif Display", serif;
+}
+
+.navegacion-items a {
+  margin-right: 3rem;
+}
+
+.navegacion-items img {
+  max-width: 3rem;
+  margin-right: 3rem;
+}
+
+/* 
+=====================================
+PRESENTATION SECTION 
+=====================================
+*/
+
+.presentation-section {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.presentation-border {
+  max-width: 87rem;
+  width: 95%;
+  height: 42.8rem;
+  border: 2.5rem solid #f4f0ec;
+  border-radius: 6rem;
+}
+
+.presentation-content {
+  max-width: 50rem;
+  width: 95%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* 
+=====================================
+a SECTION 
+=====================================
+*/
+
 .container-cuartos {
   display: flex;
   align-items: center;
