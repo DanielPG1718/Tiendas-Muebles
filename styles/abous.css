@@ -50,13 +50,17 @@
 }
 
 .container-general {
-  max-width: 192rem;
   height: 96.8rem;
   background-color: #f4f0ec;
   margin: 82px auto 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.container-images {
+  max-width: 120rem;
+  width: 95%;
 }
 
 .image-text h3 {
@@ -72,9 +76,13 @@
 }
 
 .image {
-  max-width: 29rem;
+  margin-top: 2rem;
   display: flex;
   gap: 22px;
+}
+
+.image > * {
+  width: 25%;
 }
 
 .person {
@@ -83,6 +91,8 @@
 }
 
 .container-julie {
+  text-align: center;
+  padding: 7rem 2.8rem;
   max-width: 28.3rem;
   border-radius: 30px;
   background-color: #fff;
@@ -99,8 +109,8 @@
 
 .container-julie p {
   color: #4d5053;
-  font-family: "DM Serif Display", serif;
-  font-size: 2.5rem;
+  font-family: "Jost", serif;
+  font-size: 1.8rem;
   font-weight: 400;
   line-height: 37.5px;
   letter-spacing: 0.25px;
@@ -112,7 +122,68 @@
   margin-top: 65px;
 }
 
+.phone {
+  margin-top: 6.5rem;
+}
+
 .network img {
   max-width: 1.9rem;
   height: 21px;
+}
+
+/* 
+===================================
+CONTACT SECTION
+===================================
+*/
+
+.contact-section {
+  margin-top: 21rem;
+  padding-bottom: 10rem;
+}
+
+.contact-section__title {
+  font-size: 5rem;
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  max-width: 63rem;
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form {
+  max-width: 80rem;
+  margin: 7.5rem auto 0 auto;
+}
+
+.form__input-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.form__input {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  min-height: 4rem;
+  padding-bottom: 1.2rem;
+}
+
+.form__textarea {
+  margin-top: 6rem;
+  width: 100%;
+}
+
+.form__input,
+.form__textarea {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #000000;
+}
+
+.form__actions {
+  display: flex;
+  justify-content: center;
 }
