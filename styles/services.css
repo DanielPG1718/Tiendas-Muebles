@@ -75,3 +75,62 @@ HERO SECTION
   font-family: "Jost";
   font-size: 2.2rem;
 }
+
+/* 
+=====================================
+SERVICES SECTION 
+=====================================
+*/
+
+.services_section {
+  max-width: 115rem;
+  width: 95%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 38rem auto 0 auto;
+}
+
+.services_text-box {
+  gap: 4.2rem;
+  text-align: center;
+}
+
+.services_text-box h3 {
+  color: #292f36;
+  font-family: "DM Serif Display";
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 3rem;
+}
+
+.services_text-box p {
+  max-width: 35rem;
+  color: #4d5053;
+  font-family: "Jost";
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 3.3rem;
+  letter-spacing: 0.22px;
+  gap: 4.2rem;
+  margin-top: 2rem;
+}
+
+.services_text-box button {
+  color: #4d5053;
+  font-family: "Jost";
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 2.2rem;
+  letter-spacing: 0.36px;
+  margin: 5.2rem auto 17rem;
+}
+
+.services_button {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.services_text-box img {
+  max-width: 1.5rem;
+}
