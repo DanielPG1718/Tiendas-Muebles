@@ -94,6 +94,7 @@ button img {
   text-align: center;
   margin: 0 auto;
   gap: 42px;
+  flex-wrap: wrap;
 }
 
 .text-conteiner h3 {
@@ -127,6 +128,15 @@ button img {
   gap: 75px;
 }
 
+@media (width <= 600px) {
+  .conteiner-arte {
+    display: block;
+  }
+
+  .conteiner-arte img {
+    margin-top: 20px;
+  }
+}
 .text-arte h3 {
   max-width: 42rem;
   color: #292f36;
@@ -195,6 +205,12 @@ button img {
   letter-spacing: 0.36px;
 }
 
+@media (width <= 500px) {
+  .text-arte {
+    transform: scale(0.7);
+  }
+}
+
 .container-nosotros {
   max-width: 120rem;
   background-color: #f4f0ec;
@@ -221,6 +237,7 @@ button img {
   justify-content: center;
   gap: 70px;
   margin-top: 38px;
+  flex-wrap: wrap;
 }
 
 .usa {
@@ -277,6 +294,19 @@ button img {
   margin: 0 auto;
   justify-content: space-between;
   margin-top: 29rem;
+}
+
+@media (width <= 500px) {
+  .imagenes {
+    display: block;
+  }
+
+  .imagenes img {
+    display: block;
+    width: 40%;
+    height: auto;
+    margin: 100px auto 0 auto;
+  }
 }
 
 .imagenes img {
@@ -375,7 +405,7 @@ button img {
 }
 
 .beneficio-section {
-  height: 45rem;
+  min-height: 45rem;
   background-color: #f4f0ec;
   display: flex;
   align-items: center;
@@ -387,6 +417,13 @@ button img {
   display: flex;
   justify-content: center;
   gap: 216px;
+}
+
+@media (width <= 700px) {
+  .beneficios {
+    flex-wrap: wrap;
+    padding: 20px 0;
+  }
 }
 
 .number {
@@ -441,6 +478,7 @@ button img {
 
 .conteiner-sala {
   display: flex;
+  flex-wrap: wrap;
   gap: 27px;
   margin-top: 52px;
   justify-content: center;
@@ -527,6 +565,7 @@ button img {
   padding: 26px 37px;
   color: #fff;
   border-radius: 18px;
+  gap: 11px;
 }
 
 .container {
