@@ -74,3 +74,58 @@ HERO SECTION
   font-family: "Jost";
   font-size: 2.2rem;
 }
+
+/* 
+=====================================
+TRENDS SERVICES SECTION 
+=====================================
+*/
+
+.group_trends-services {
+  max-width: 120rem;
+  width: 95%;
+  display: flex;
+  margin: 20rem auto 0 auto;
+  gap: 9.7rem;
+}
+
+.trends-services h3 {
+  width: 44.8rem;
+  color: #292f36;
+  font-family: "DM Serif Display";
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 6.2rem;
+}
+
+.trends-services_text-box {
+  max-width: 65.5rem;
+}
+
+.trends-services_text_une {
+  color: #cda274;
+  font-family: "Jost";
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 3.7rem;
+  letter-spacing: 0.25px;
+}
+
+.trends-services_text_two {
+  color: #4d5053;
+  font-family: "Jost";
+  font-size: 2.2rem;
+  font-weight: 400;
+  letter-spacing: 0.22px;
+  margin-top: 2rem;
+}
+
+.trends-services_text_three {
+  color: #4d5053;
+  font-family: "Jost";
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 3.3rem;
+  letter-spacing: 0.22px;
+  margin-top: 2.8rem;
+}
