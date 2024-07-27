@@ -1,0 +1,76 @@
+@import url("normalize.css");
+
+/*
+  =====================================
+  NAVIGATION SECTION
+  =====================================
+*/
+.navegacion {
+  display: flex;
+  justify-content: space-around;
+  padding: 6.5rem;
+}
+
+.logo {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+.logo h2 {
+  color: #292f36;
+  font-weight: 400;
+  font-family: "DM Serif Display", serif;
+}
+
+.logo img {
+  max-width: 3.4rem;
+}
+.navegacion-items {
+  color: #292f36;
+  font-family: "DM Serif Display", serif;
+}
+
+.navegacion-items a {
+  margin-right: 3rem;
+}
+
+.navegacion-items img {
+  max-width: 3rem;
+  margin-right: 3rem;
+}
+
+/* 
+=====================================
+HERO SECTION 
+=====================================
+*/
+
+.hero-section {
+  max-width: 192rem;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.hero-section-content {
+  position: absolute;
+  background-color: #fff;
+  padding: 4rem 15rem;
+  border-radius: 3.7rem 3.7rem 0 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.hero-section__page-title {
+  color: #292f36;
+  font-family: "DM Serif Display";
+  font-size: 5rem;
+}
+
+.hero-section__page-route {
+  color: #4d5053;
+  font-family: "Jost";
+  font-size: 2.2rem;
+}
