@@ -158,6 +158,30 @@ IMAGES SECTION
 }
 
 .imagenes img {
-  width: 17rem;
-  height: 4rem;
+  width: 10rem;
+  height: 5rem;
+}
+
+/* 
+=====================================
+VIDEO SECTION 
+=====================================
+*/
+
+.group_video {
+  max-width: 120rem;
+  margin: 15rem auto 0 auto;
+  position: relative;
+}
+
+.video_section {
+  border-radius: 7rem;
+}
+
+.icons_video_section {
+  max-width: 13.2rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
