@@ -352,6 +352,63 @@ HOW WE WORK SECTION
 
 /* 
 =====================================
-HOW WE WORK SECTION 
+BUTTON SECTION 
+=====================================
+*/
+
+.container-button {
+  max-width: 120rem;
+  background-color: #292f36;
+  border-radius: 7rem;
+  padding: 80px 315px;
+  margin: 0 auto;
+  margin-top: 24rem;
+}
+
+.button-text {
+  color: #fff;
+}
+
+.button-text h3 {
+  max-width: 57rem;
+  font-family: "DM Serif Display", serif;
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 62.5px;
+}
+
+.button-text p {
+  max-width: 45.2rem;
+  font-family: "Jost", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  margin: 0 auto;
+  margin-top: 11px;
+}
+
+.boton-contact-container {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.button-text button {
+  background-color: #cda274;
+  padding: 26px 37px;
+  color: #fff;
+  border-radius: 18px;
+}
+
+.buttonn_interno img {
+  max-width: 1.5rem;
+  gap: 1.1rem;
+}
+
+/* 
+=====================================
+FOOTER SECTION 
 =====================================
 */
