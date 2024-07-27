@@ -129,3 +129,35 @@ TRENDS SERVICES SECTION
   letter-spacing: 0.22px;
   margin-top: 2.8rem;
 }
+
+/* 
+=====================================
+IMAGES SECTION 
+=====================================
+*/
+
+.imagenes {
+  max-width: 120rem;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 29rem;
+}
+
+@media (width <= 500px) {
+  .imagenes {
+    display: block;
+  }
+
+  .imagenes img {
+    display: block;
+    width: 40%;
+    height: auto;
+    margin: 100px auto 0 auto;
+  }
+}
+
+.imagenes img {
+  width: 17rem;
+  height: 4rem;
+}
