@@ -287,3 +287,50 @@ DESIGN SECTION
 .design_text_box img {
   max-width: 1.5rem;
 }
+
+/* 
+=====================================
+BENEFIT SECTION 
+=====================================
+*/
+
+.beneficio-section {
+  min-height: 45rem;
+  background-color: #f4f0ec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20rem;
+}
+
+.beneficios {
+  display: flex;
+  justify-content: center;
+  gap: 216px;
+}
+
+@media (width <= 700px) {
+  .beneficios {
+    flex-wrap: wrap;
+    padding: 20px 0;
+  }
+}
+
+.number {
+  color: #cda274;
+  font-family: "DM Serif Display", serif;
+  font-size: 85px;
+  font-weight: 400;
+  line-height: 106.25px;
+  letter-spacing: 1.7px;
+  text-align: center;
+}
+
+.experience {
+  color: #4d5053;
+  font-family: "Jost", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+}
