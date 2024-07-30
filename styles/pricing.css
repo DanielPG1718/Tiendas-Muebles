@@ -1,0 +1,277 @@
+@import url("normalize.css");
+
+/*
+  =====================================
+  NAVIGATION SECTION
+  =====================================
+*/
+.navegacion {
+  display: flex;
+  justify-content: space-around;
+  padding: 6.5rem;
+}
+
+.logo {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+.logo h2 {
+  color: #292f36;
+  font-weight: 400;
+  font-family: "DM Serif Display", serif;
+}
+
+.logo img {
+  max-width: 3.4rem;
+}
+.navegacion-items {
+  color: #292f36;
+  font-family: "DM Serif Display", serif;
+}
+
+.navegacion-items a {
+  margin-right: 3rem;
+}
+
+.navegacion-items img {
+  max-width: 3rem;
+  margin-right: 3rem;
+}
+
+/* 
+=====================================
+HERO SECTION 
+=====================================
+*/
+
+.hero-section {
+  max-width: 192rem;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.hero-section-content {
+  position: absolute;
+  background-color: #fff;
+  padding: 4rem 15rem;
+  border-radius: 3.7rem 3.7rem 0 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.hero-section__page-title {
+  color: #292f36;
+  font-family: "DM Serif Display";
+  font-size: 5rem;
+}
+
+.hero-section__page-route {
+  color: #4d5053;
+  font-family: "Jost";
+  font-size: 2.2rem;
+}
+
+/* 
+=====================================
+DESIGN SECTION 
+=====================================
+*/
+
+.group_section_design {
+  max-width: 120.2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4.8rem;
+  margin: 15rem auto 0 auto;
+}
+
+.design_section {
+  width: 33.3%;
+}
+
+.design_section h3 {
+  color: #292f36;
+  font-family: "DM Serif Display";
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.design_section p {
+  max-width: 10.8rem;
+  color: #292f36;
+  font-family: "DM Serif Display";
+  font-size: 8.5rem;
+  font-weight: 400;
+  letter-spacing: 0.85px;
+  margin: 0 auto;
+}
+
+.design_section span {
+  font-size: 2.5rem;
+  color: #292f36;
+  font-family: "DM Serif Display";
+  font-weight: 400;
+}
+
+.span_design {
+  display: flex;
+  justify-content: center;
+  color: #292f36;
+  font-family: "DM Serif Display";
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 3.7rem;
+  letter-spacing: 0.25px;
+  margin-top: 5px;
+}
+
+.hr_design {
+  border: none;
+  border-top: 1px solid #cda274;
+  margin-top: 3.4rem;
+}
+ul {
+  list-style: none;
+}
+.design_section li {
+  margin-top: 2.6rem;
+  color: #4d5053;
+  font-family: "Jost";
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.button_design {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.design_section button {
+  background-color: #cda274;
+  color: #fff;
+  padding: 2.6rem 4.8rem;
+  border-radius: 1.8rem;
+  margin-top: 2.6rem;
+}
+
+.design_section img {
+  max-width: 1.5rem;
+}
+
+p.p_design {
+  max-width: 10.8rem;
+  color: #cda274;
+  font-family: "DM Serif Display";
+  font-size: 8.5rem;
+  font-weight: 400;
+  letter-spacing: 0.85px;
+  margin: 0 auto;
+}
+
+.hr_complete {
+  border: none;
+  border-top: 1px solid #292f36;
+  margin-top: 3.4rem;
+}
+
+.button_complete {
+  display: flex;
+  justify-content: center;
+}
+.button_complete button {
+  background-color: #292f36;
+  color: #fff;
+  padding: 2.6rem 4.8rem;
+  border-radius: 1.8rem;
+  margin-top: 2.6rem;
+  gap: 1rem;
+}
+
+/* 
+=====================================
+FOOTER SECTION 
+=====================================
+*/
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  width: 95%;
+  margin-top: 20rem;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 4fr 2fr 2fr 2fr;
+  padding-bottom: 8rem;
+}
+
+@media (width <= 920px) {
+  .footer {
+    padding-left: 5rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+  }
+}
+
+@media (width <= 480px) {
+  .footer {
+    padding-left: 2rem;
+    grid-template-columns: 1fr;
+    gap: 5rem;
+  }
+}
+
+.footer-social__info {
+  margin-top: 1.8rem;
+  max-width: 39rem;
+  color: #4d5053;
+}
+
+.footer-social__images {
+  margin-top: 3rem;
+  display: flex;
+  gap: 5rem;
+}
+
+.footer-social__images img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.footer-list strong {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+}
+
+.footer-list ul {
+  margin-top: 1rem;
+  list-style: none;
+  color: #4d5053;
+  max-width: 25rem;
+}
+
+.footer-list--space ul {
+  line-height: 300%;
+}
+
+.footer-list--normal ul li {
+  margin-top: 2rem;
+}
+
+.footer-copy {
+  margin-top: 10rem;
+  color: #4d5053;
+  text-align: center;
+  grid-column: 1 / -1;
+}
