@@ -110,25 +110,15 @@ CARD SECTION
 */
 
 .section_card_general {
-  display: flex;
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 5rem;
 }
 
 .project_sectiom {
   max-width: 120rem;
   margin: 0 auto;
-}
-
-.section_card_left {
-  margin-top: 6rem;
-}
-
-.card_image {
-  max-width: 62.4rem;
-}
-
-.card_image_2 {
-  max-width: 61.6rem;
 }
 
 .section_card_text_box {
@@ -160,16 +150,4 @@ CARD SECTION
 
 .section_card {
   margin-top: 2rem;
-}
-
-.card_image_3 {
-  max-width: 61.4rem;
-}
-
-.card_image_4 {
-  max-width: 61.6rem;
-}
-
-.card_image_5 {
-  width: 50%;
 }
