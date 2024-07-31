@@ -1,0 +1,175 @@
+@import url("normalize.css");
+
+/*
+  =====================================
+  NAVIGATION SECTION
+  =====================================
+*/
+.navegacion {
+  display: flex;
+  justify-content: space-around;
+  padding: 6.5rem;
+}
+
+.logo {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+.logo h2 {
+  color: #292f36;
+  font-weight: 400;
+  font-family: "DM Serif Display", serif;
+}
+
+.logo img {
+  max-width: 3.4rem;
+}
+.navegacion-items {
+  color: #292f36;
+  font-family: "DM Serif Display", serif;
+}
+
+.navegacion-items a {
+  margin-right: 3rem;
+}
+
+.navegacion-items img {
+  max-width: 3rem;
+  margin-right: 3rem;
+}
+
+/* 
+=====================================
+HERO SECTION 
+=====================================
+*/
+
+.hero-section {
+  max-width: 192rem;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.hero-section-content {
+  position: absolute;
+  background-color: #fff;
+  padding: 4rem 15rem;
+  border-radius: 3.7rem 3.7rem 0 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.hero-section__page-title {
+  color: #292f36;
+  font-family: "DM Serif Display";
+  font-size: 5rem;
+}
+
+.hero-section__page-route {
+  color: #4d5053;
+  font-family: "Jost";
+  font-size: 2.2rem;
+}
+
+/* 
+=====================================
+BUTTON SECTION 
+=====================================
+*/
+
+.project_button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20rem;
+  gap: 9.6rem;
+}
+
+.project_button_une,
+.project_button_three,
+.project_button_four {
+  border: 1px solid #cda274;
+  border-radius: 1.8rem;
+  padding: 2.6rem 6.6rem;
+}
+
+.project_button_two {
+  background-color: #cda274;
+  color: #fff;
+  border-radius: 1.8rem;
+  padding: 2.6rem 6.6rem;
+}
+
+/* 
+=====================================
+CARD SECTION 
+=====================================
+*/
+
+.section_card_general {
+  display: flex;
+  gap: 5rem;
+}
+
+.project_sectiom {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.section_card_left {
+  margin-top: 6rem;
+}
+
+.card_image {
+  max-width: 62.4rem;
+}
+
+.card_image_2 {
+  max-width: 61.6rem;
+}
+
+.section_card_text_box {
+  display: flex;
+  max-width: 62.4rem;
+  margin-top: 2.4rem;
+  justify-content: space-between;
+}
+
+.sub_tittle {
+  color: #292f36;
+  font-family: "DM Serif Display";
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 3.1rem;
+}
+
+.paragraph {
+  color: #4d5053;
+  font-family: "Jost";
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 3.3rem;
+}
+
+.image_button {
+  max-width: 7rem;
+}
+
+.section_card {
+  margin-top: 2rem;
+}
+
+.card_image_3 {
+  max-width: 61.4rem;
+}
+
+.card_image_4 {
+  max-width: 61.6rem;
+}
+
+.card_image_5 {
+  width: 50%;
+}
