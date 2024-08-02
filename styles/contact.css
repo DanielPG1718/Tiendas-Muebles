@@ -1,0 +1,205 @@
+@import url("normalize.css");
+
+/*
+  =====================================
+  NAVIGATION SECTION
+  =====================================
+*/
+.navegacion {
+  display: flex;
+  justify-content: space-around;
+  padding: 6.5rem;
+}
+
+.logo {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+.logo h2 {
+  color: #292f36;
+  font-weight: 400;
+  font-family: "DM Serif Display", serif;
+}
+
+.logo img {
+  max-width: 3.4rem;
+}
+.navegacion-items {
+  color: #292f36;
+  font-family: "DM Serif Display", serif;
+}
+
+.navegacion-items a {
+  margin-right: 3rem;
+}
+
+.navegacion-items img {
+  max-width: 3rem;
+  margin-right: 3rem;
+}
+
+/* 
+=====================================
+HERO SECTION 
+=====================================
+*/
+
+.hero-section {
+  max-width: 192rem;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.hero-section-content {
+  position: absolute;
+  background-color: #fff;
+  padding: 4rem 15rem;
+  border-radius: 3.7rem 3.7rem 0 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.hero-section__page-title {
+  color: #292f36;
+  font-family: "DM Serif Display";
+  font-size: 5rem;
+}
+
+.hero-section__page-route {
+  color: #4d5053;
+  font-family: "Jost";
+  font-size: 2.2rem;
+}
+
+/* 
+===================================
+CONTACT SECTION
+===================================
+*/
+
+.contact-section {
+  margin-top: 21rem;
+  padding-bottom: 10rem;
+}
+
+.contact-section__title {
+  font-size: 5rem;
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  max-width: 63rem;
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form {
+  max-width: 80rem;
+  margin: 7.5rem auto 0 auto;
+}
+
+.form__input-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  margin-top: 5rem;
+}
+
+.form__input {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  min-height: 4rem;
+  padding-bottom: 1.2rem;
+}
+
+.form__textarea {
+  margin-top: 6rem;
+  width: 100%;
+}
+
+.form__input,
+.form__textarea {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #000000;
+}
+
+.form__actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contact_section {
+  margin-top: 20rem;
+}
+
+.contact_subtittle {
+  max-width: 68.3rem;
+  color: #292f36;
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 7.5rem;
+  letter-spacing: 0.5px;
+  margin: 0 auto;
+}
+
+.container_general {
+  display: flex;
+  justify-content: center;
+  gap: 5.5rem;
+}
+
+.contact-section_left {
+  padding: 7.6rem 3.2rem;
+}
+
+.paragraph {
+  color: #4d5053;
+  font-family: "Jost";
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3rem;
+  letter-spacing: 0.2px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.icons_contact {
+  max-width: 5.2rem;
+}
+
+.button_contact {
+  background-color: #292f36;
+  display: flex;
+  padding: 2.6rem 5.4rem;
+  color: #fff;
+  border-radius: 1.8rem;
+  gap: 9px;
+  align-items: center;
+  margin-top: 5.8rem;
+}
+
+.button_contact_img {
+  width: 15px;
+}
+
+.social_media {
+  margin-top: 4.7rem;
+  display: flex;
+  gap: 3.5rem;
+}
+
+.red_social {
+  width: 1.2rem;
+  height: 1.2rem;
+}
